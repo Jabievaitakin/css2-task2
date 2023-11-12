@@ -1,0 +1,104 @@
+body{
+background-image: url( ../image/css2-task-2.jpeg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto Slab" ,sans-serif;
+}
+.create-account{
+    width: 500px;
+    height: 550px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 50px 300px;
+    padding: 20px 70px;
+    background-color:aliceblue;
+
+}
+.title h1{
+text-align: center;
+padding:20px;
+font-size: 20px;
+}
+.name input{
+    border: none;
+    width: 350px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px 5px;
+    background-color: transparent;
+    
+} 
+.email input {
+    border: none;
+    width: 350px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 20px 5px;
+    background-color: transparent;
+    
+}
+.password input {
+    border: none;
+    width: 350px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 20px 5px;
+    background-color: transparent;
+   
+}
+.repeat-password input{
+    border: none;
+    width: 350px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 20px 5px;
+    background-color: transparent;
+}
+.checkbox input {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: transparent;
+
+}
+.sign-up button{
+    border: none;
+    border-radius: 3px;
+    width: 350px;
+    height:30px ;
+    padding-top:10px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    color: aliceblue;
+    background: rgb(162, 169, 224);
+    background: linear-gradient(117deg, rgba(162,169,224,1) 0%, rgba(95,208,198,1) 100%);
+}
+.checkbox label a{
+    color: black;
+}
+.text p a{
+    color: black;
+}
+.text p{
+    text-align: center;
+}
+.password{
+    position: relative;
+}
+.password i{
+    position: absolute;
+    bottom: 13px;
+    right: 15px;
+    cursor: pointer;
+}
